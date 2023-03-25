@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Bicons from "./pages/Bicons";
 import Art from "./pages/Art";
 import Elementos from "./pages/Elementos";
+import Formularios from "./pages/Formularios";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/bicons" element={<Bicons />} />
         <Route path="/art" element={<Art />} />
         <Route path="/elementos" element={<Elementos />} />
+        <Route path="/formularios" element={<Formularios />} />
       </Routes>
     </BrowserRouter>
   );

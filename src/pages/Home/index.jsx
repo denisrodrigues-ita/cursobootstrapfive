@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <header className="container-fluid text-light bg-dark">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <Link class="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-dark">
+        <Link className="navbar-brand" to="/">
           Curso Bootstrap
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -17,23 +17,28 @@ const Home = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link class="nav-link" to="/bicons">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/bicons">
                 Icons
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/art">
+            <li className="nav-item">
+              <Link className="nav-link" to="/art">
                 Art
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/elementos">
+            <li className="nav-item">
+              <Link className="nav-link" to="/elementos">
                 Elementos
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/formularios">
+                Formularios
               </Link>
             </li>
           </ul>
