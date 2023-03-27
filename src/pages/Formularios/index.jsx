@@ -197,7 +197,7 @@ const Formularios = () => {
         </form>
       </div>
 
-      <div className="m-4">
+      <div className="col-4 m-4">
         <h2>Radio</h2>
         <form>
           <div className="form-check">
@@ -223,6 +223,39 @@ const Formularios = () => {
             <label className="form-check-label" htmlFor="exampleRadios2">
               opção b
             </label>
+          </div>
+        </form>
+      </div>
+
+      <div className="col-4 m-4">
+        <h2>Switch</h2>
+        <div className="form-check form-switch">
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="flexSwitchCheckDefault"
+          />
+          <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+            Default switch checkbox input
+          </label>
+        </div>
+      </div>
+
+      <div className="col-4 m-4">
+        <h2>Range</h2>
+        <form>
+          <div className="mb-4">
+            <label htmlFor="customRange1" className="form-label">
+              Default range
+            </label>
+            <input
+              type="range"
+              className="form-range"
+              min={0}
+              max={5}
+              step={0.5}
+              id="customRange1"
+            />
           </div>
         </form>
       </div>
