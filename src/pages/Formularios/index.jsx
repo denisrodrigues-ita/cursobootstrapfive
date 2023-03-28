@@ -259,6 +259,160 @@ const Formularios = () => {
           </div>
         </form>
       </div>
+
+      <h2 className="col-4 m-4">input groups</h2>
+      <div className="input-group m-4 col-4">
+        <span className="input-group-text" id="basic-addon">
+          @
+        </span>
+        <input
+          type="email"
+          className="form-control"
+          placeholder="Digite seu email"
+        />
+      </div>
+      <div className="input-group m-4 col-4">
+        <span className="input-group-text" id="basic-addon2">
+          #
+        </span>
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Digite o nome do canal"
+        />
+      </div>
+      <p className="col-4 m-4">Quanto você quer pagar?</p>
+      <div className="input-group m-4 col-4">
+        <span className="input-group-text" id="basic-addon3">
+          R$
+        </span>
+        <input
+          type="number"
+          className="form-control"
+          placeholder="Qual o valor?"
+        />
+        <span className="input-group-text">,00</span>
+      </div>
+
+      <div className="col-4 m-4">
+        <h2>Floating Labe</h2>
+        <div className="form-floating mb-4">
+          <input
+            type="email"
+            className="form-control"
+            id="floatingInput"
+            placeholder="Insira seu email"
+          />
+          <label htmlFor="floatingInput">Email</label>
+        </div>
+      </div>
+
+      <div className="container-start col-6 m-4">
+        <h2>Cadastre-se preenchendo o formulário</h2>
+        <form className="row g-3">
+          <div className="col-lg-6 col-md-12">
+            <label htmlFor="email" className="form-label">
+              Email
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              placeholder="Insira seu email"
+            />
+          </div>
+          <div className="col-lg-6 col-md-12">
+            <label htmlFor="senha" className="form-label">
+              Senha
+            </label>
+            <input
+              type="password"
+              className="form-control"
+              id="senha"
+              placeholder="Insira sua senha"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <label htmlFor="cep" className="form-label">
+              CEP:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="cep"
+              placeholder="Insira seu CEP"
+            />
+          </div>
+          <div className="col-lg-10 col-md-8 col-sm-8">
+            <label htmlFor="rua" className="form-label">
+              Rua:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="rua"
+              placeholder="Insira seu endereço"
+            />
+          </div>
+          <div className="col-lg-2 col-md-4 col-sm-4">
+            <label htmlFor="numero" className="form-label">
+              Número:
+            </label>
+            <input
+              type="number"
+              className="form-control"
+              id="numero"
+              placeholder="Nº"
+            />
+          </div>
+          <div className="col-lg-8 col-md-6">
+            <label htmlFor="cidade" className="form-label">
+              Cidade:
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="cidade"
+              placeholder="Cidade"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <label htmlFor="estado" className="form-label">
+              Estado:
+            </label>
+            <select id="estado" className="form-select">
+              <option selected>Escolha...</option>
+              <option value="1">Amapa</option>
+              <option value="2">Amazonas</option>
+              <option value="3">Bahia</option>
+              <option value="4">Ceará</option>
+              <option value="5">Distrito Federal</option>
+              <option value="6">Espírito Santo</option>
+              <option value="7">Goiás</option>
+              <option value="8">Maranhão</option>
+              <option value="9">Mato Grosso</option>
+            </select>
+          </div>
+
+          <div className="col-12">
+            <div className="form-check">
+              <input
+                type="checkbox"
+                className="form-check-input"
+                id="newsletter"
+              />
+              <label className="form-check-label" htmlFor="newsletter">
+                Desejo receber newsletter
+              </label>
+            </div>
+          </div>
+          <div className="col-12">
+            <button type="submit" className="btn btn-primary">
+              Cadastrar
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

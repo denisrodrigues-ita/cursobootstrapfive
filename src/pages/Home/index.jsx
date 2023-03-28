@@ -41,6 +41,11 @@ const Home = () => {
                 Formularios
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/validacoes">
+                Validações
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
