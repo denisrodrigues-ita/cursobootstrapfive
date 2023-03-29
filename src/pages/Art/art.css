@@ -74,7 +74,7 @@ header.row {
 /* MAIN IMAGE */
 .main-image {
   height: 400px;
-  background-image: url("../img/g_1.jpg");
+  background-image: url("../../img/g_1.jpg");
   margin-bottom: 30px;
   position: relative;
 }
@@ -89,23 +89,23 @@ header.row {
 
 /* GALLERY */
 #img-2 {
-  background-image: url("../img/g_2.jpg");
+  background-image: url("../../img/g_2.jpg");
 }
 
 #img-3 {
-  background-image: url("../img/g_3.jpg");
+  background-image: url("../../img/g_3.jpg");
 }
 
 #img-4 {
-  background-image: url("../img/g_4.jpg");
+  background-image: url("../../img/g_4.jpg");
 }
 
 #img-5 {
-  background-image: url("../img/g_5.jpg");
+  background-image: url("../../img/g_5.jpg");
 }
 
 #img-6 {
-  background-image: url("../img/g_6.jpg");
+  background-image: url("../../img/g_6.jpg");
 }
 
 #gallery-container h1 {

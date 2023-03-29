@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "../../img/art_logo.svg";
-import "../../css/art.css";
+import "./art.css";
 
 const Art = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="styles.container-fluid">
         <header id="header" className="row">
           <div id="logo-container">
             <img id="logo" src={logo} alt="Art" />
@@ -96,7 +96,10 @@ const Art = () => {
         </div>
         <footer className="container">
           <p className="secondary-color">Nos encontre nas redes sociais:</p>
-          <div className="row justify-content-center" id="social-icons-container">
+          <div
+            className="row justify-content-center"
+            id="social-icons-container"
+          >
             <div className="col-1">
               <a href="#">
                 <i className="bi bi-facebook secondary-color"></i>
