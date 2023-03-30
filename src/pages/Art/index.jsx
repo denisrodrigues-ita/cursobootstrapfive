@@ -5,16 +5,16 @@ import "./art.css";
 const Art = () => {
   return (
     <>
-      <div className="styles.container-fluid">
-        <header id="header" className="row">
+      <div className="art container-fluid">
+        <header id="header" className="art row">
           <div id="logo-container">
             <img id="logo" src={logo} alt="Art" />
             <h1>Art</h1>
           </div>
           <p>Exibições de arte urbana</p>
         </header>
-        <nav id="navbar" className="container">
-          <div className="row justify-content-center">
+        <nav id="navbar" className="art container">
+          <div className="art row justify-content-center">
             <a href="#">Home</a>
             <a href="#">Projetos</a>
             <a href="#">Artistas</a>
@@ -22,101 +22,101 @@ const Art = () => {
           </div>
         </nav>
       </div>
-      <div className="container" id="main-image-container">
-        <div className="main-image center-image">
-          <div className="main-image-info">
+      <div className="art container" id="main-image-container">
+        <div className="art main-image center-image">
+          <div className="art main-image-info">
             <h2>Arte no muro de Davi</h2>
-            <p className="secondary-color">Realizada em 20/05/2021</p>
-            <a className="btn" href="#">
+            <p className="art secondary-color">Realizada em 20/05/2021</p>
+            <a className="art btn" href="#">
               Detalhes
             </a>
           </div>
         </div>
       </div>
-      <div className="container" id="gallery-container">
-        <div className="col-12">
+      <div className="art container" id="gallery-container">
+        <div className="art col-12">
           <h1>Artes em destaque</h1>
         </div>
-        <div className="row gx-md-5">
-          <div className="col-xs-12 col-md-6">
+        <div className="art row gx-md-5">
+          <div className="art col-xs-12 col-md-6">
             <div
-              className="small-image-container center-image"
+              className="art small-image-container center-image"
               id="img-2"
             ></div>
             <h3>Obra de Arthur</h3>
-            <p className="secondary-color">Realizada em: 26/01/2018</p>
-            <a className="btn" href="#">
+            <p className="art secondary-color">Realizada em: 26/01/2018</p>
+            <a className="art btn" href="#">
               Detalhes
             </a>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="art col-xs-12 col-md-6">
             <div
-              className="small-image-container center-image"
+              className="art small-image-container center-image"
               id="img-3"
             ></div>
             <h3>Grafite da Av. Paulista</h3>
-            <p className="secondary-color">Realizada em: 14/06/2021</p>
-            <a className="btn" href="#">
+            <p className="art secondary-color">Realizada em: 14/06/2021</p>
+            <a className="art btn" href="#">
               Detalhes
             </a>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="art col-xs-12 col-md-6">
             <div
-              className="small-image-container center-image"
+              className="art small-image-container center-image"
               id="img-4"
             ></div>
             <h3>Arte em conjunto do Metrô</h3>
-            <p className="secondary-color">Realizada em: 19/01/2018</p>
-            <a className="btn" href="#">
+            <p className="art secondary-color">Realizada em: 19/01/2018</p>
+            <a className="art btn" href="#">
               Detalhes
             </a>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="art col-xs-12 col-md-6">
             <div
-              className="small-image-container center-image"
+              className="art small-image-container center-image"
               id="img-5"
             ></div>
             <h3>Obra de Paulo</h3>
-            <p className="secondary-color">Realizada em: 12/12/2015</p>
-            <a className="btn" href="#">
+            <p className="art secondary-color">Realizada em: 12/12/2015</p>
+            <a className="art btn" href="#">
               Detalhes
             </a>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="art col-xs-12 col-md-6">
             <div
-              className="small-image-container center-image"
+              className="art small-image-container center-image"
               id="img-6"
             ></div>
             <h3>Grafite no centro da cidade</h3>
-            <p className="secondary-color">Realizada em: 13/02/2012</p>
-            <a className="btn" href="#">
+            <p className="art secondary-color">Realizada em: 13/02/2012</p>
+            <a className="art btn" href="#">
               Detalhes
             </a>
           </div>
         </div>
-        <footer className="container">
-          <p className="secondary-color">Nos encontre nas redes sociais:</p>
+        <footer className="art container">
+          <p className="art secondary-color">Nos encontre nas redes sociais:</p>
           <div
-            className="row justify-content-center"
+            className="art row justify-content-center"
             id="social-icons-container"
           >
-            <div className="col-1">
+            <div className="art col-1">
               <a href="#">
-                <i className="bi bi-facebook secondary-color"></i>
+                <i className="art bi bi-facebook secondary-color"></i>
               </a>
             </div>
-            <div className="col-1">
+            <div className="art col-1">
               <a href="#">
-                <i className="bi bi-instagram secondary-color"></i>
+                <i className="art bi bi-instagram secondary-color"></i>
               </a>
             </div>
-            <div className="col-1">
+            <div className="art col-1">
               <a href="#">
-                <i className="bi bi-twitter secondary-color"></i>
+                <i className="art bi bi-twitter secondary-color"></i>
               </a>
             </div>
           </div>
-          <p className="secondary-color">Art &copy; 2021</p>
+          <p className="art secondary-color">Art &copy; 2021</p>
         </footer>
       </div>
     </>

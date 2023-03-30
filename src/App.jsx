@@ -9,6 +9,7 @@ import Validacoes from "./pages/Validacoes";
 import Login from "./pages/Login";
 import PageTitle from "./components/PageTitle";
 import Cadastro from "./pages/Cadastro";
+import Accordion from "./pages/Accordion";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/validacoes" element={<Validacoes />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/accordion" element={<Accordion />} />
       </Routes>
     </BrowserRouter>
   );

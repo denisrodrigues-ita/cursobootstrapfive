@@ -51,6 +51,11 @@ const Home = () => {
                 Login
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/accordion">
+                Accordion
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
