@@ -1,4 +1,5 @@
 import React from "react";
+import "./accordion.css";
 
 const Accordion = () => {
   const [count, setCount] = React.useState(0);
@@ -249,25 +250,102 @@ const Accordion = () => {
           <button type="button" className="btn btn-outline-dark">
             Aumentar
           </button>
-          {/* <button type="button" className="btn btn-outline-dark">
-            Aumentar
-          </button> */}
         </div>
       </div>
 
       {/* card */}
-        <div className="container mb-4">
-          <div className="card mb-4">
+      <div className="container mb-4">
+        <div className="row ml-3">
+          <div className="acc card mb-4 me-2 p-0">
             <img
               src="https://via.placeholder.com/300"
               className="card-img-top"
               alt="minha imgem"
             />
             <div className="card-body">
+              <h5 className="card-title">Card title</h5>
               <p className="card-text">Esta é a descrição do produto</p>
+              <a href="#" className="btn btn-primary">
+                Comprar
+              </a>
+            </div>
+          </div>
+          <div className="acc card mb-4 me-2 p-0">
+            <img
+              src="https://via.placeholder.com/300"
+              className="card-img-top"
+              alt="minha imgem"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <h6 className="card-subtitle mb-2 text-mutes">Um subtitulo</h6>
+              <p className="card-text">Esta é a descrição do produto</p>
+              <a href="#" className="btn btn-primary">
+                Comprar
+              </a>
+            </div>
+          </div>
+          <div className="acc card mb-4 me-2 p-0">
+            <img
+              src="https://via.placeholder.com/300"
+              className="card-img-top"
+              alt="minha imgem"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <h6 className="card-subtitle mb-2 text-mutes">Um subtitulo</h6>
+              <p className="card-text">Esta é a descrição do produto</p>
+              <a href="#" className="card-link">
+                Comprar
+              </a>
+              <a href="#" className="card-link">
+                Cancelar
+              </a>
             </div>
           </div>
         </div>
+        <div className="row ml-3 mb-5">
+          <div className="card text-center col-5 p-0" id="card-banner">
+            <div className="card-header">Card banner</div>
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+                qui velit sed illum inventore perspiciatis ipsam maiores quam
+                explicabo, libero nesciunt excepturi pariatur odio similique
+                modi. Minus dicta quidem illum!
+              </p>
+              <a href="#" className="btn btn-success">
+                Acessar Oferta
+              </a>
+            </div>
+            <div className="card-footer text-muted">2 days ago</div>
+          </div>
+        </div>
+        <div className="row ml-3">
+          <div className="card text-center col-5 p-0" id="card-banner">
+            <div className="card-header">Card banner</div>
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <img
+                src="https://via.placeholder.com/300"
+                className="card-img-top"
+                alt="minha imgem"
+              />
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+                qui velit sed illum inventore perspiciatis ipsam maiores quam
+                explicabo, libero nesciunt excepturi pariatur odio similique
+                modi. Minus dicta quidem illum!
+              </p>
+              <a href="#" className="btn btn-success">
+                Acessar Oferta
+              </a>
+            </div>
+            <div className="card-footer text-muted">2 days ago</div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
