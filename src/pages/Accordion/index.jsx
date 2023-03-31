@@ -348,12 +348,12 @@ const Accordion = () => {
       </div>
 
       {/* Slider */}
-      <div class="container mb-4">
-        <div class="col-8">
-          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+      <div className="container mb-4">
+        <div className="col-8">
+          <div id="carousel" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-indicators">
               <button
-                class="active"
+                className="active"
                 type="button"
                 data-bs-target="#carousel"
                 data-bs-slide-to="0"
@@ -375,27 +375,27 @@ const Accordion = () => {
                 aria-label="Slide 3"
               ></button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" id="carousel-item-1">
+            <div className="carousel-inner">
+              <div className="carousel-item active" id="carousel-item-1">
                 <img
                   src="https://via.placeholder.com/300"
-                  class="d-block w-100"
+                  className="d-block w-100"
                   alt="minha imagem"
                 />
-                <div class="carousel-caption">
+                <div className="carousel-caption">
                   <h5>First slide label</h5>
                   <p>
                     Some representative placeholder content for the first slide.
                   </p>
                 </div>
               </div>
-              <div class="carousel-item" id="carousel-item-2">
+              <div className="carousel-item" id="carousel-item-2">
                 <img
                   src="https://via.placeholder.com/300"
-                  class="d-block w-100"
+                  className="d-block w-100"
                   alt="minha imagem"
                 />
-                <div class="carousel-caption">
+                <div className="carousel-caption">
                   <h5>Second slide label</h5>
                   <p>
                     Some representative placeholder content for the second
@@ -403,13 +403,13 @@ const Accordion = () => {
                   </p>
                 </div>
               </div>
-              <div class="carousel-item" id="carousel-item-3">
+              <div className="carousel-item" id="carousel-item-3">
                 <img
                   src="https://via.placeholder.com/300"
-                  class="d-block w-100"
+                  className="d-block w-100"
                   alt="minha imagem"
                 />
-                <div class="carousel-caption">
+                <div className="carousel-caption">
                   <h5>Third slide label</h5>
                   <p>
                     Some representative placeholder content for the third slide.
@@ -418,35 +418,35 @@ const Accordion = () => {
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#carousel"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#carousel"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
       </div>
 
       {/* close button */}
-      <div class="container">
+      <div className="container">
         <p>
           Clique para fechar{" "}
           <button
@@ -455,7 +455,7 @@ const Accordion = () => {
             aria-label="Close"
           ></button>
         </p>
-        <a href="#" class="btn btn-primary">
+        <a href="#" className="btn btn-primary">
           Fechar
           <button
             className="btn-close"
@@ -466,7 +466,7 @@ const Accordion = () => {
       </div>
 
       {/* Collapse */}
-      <div class="container mt-5">
+      <div className="container mt-5">
         <button
           className="btn btn-primary"
           type="button"
@@ -477,7 +477,7 @@ const Accordion = () => {
         >
           Clique para abrir/fechar
         </button>
-        <div class="collapse" id="collapse">
+        <div className="collapse" id="collapse">
           <div className="col-12 mt-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
             totam itaque nulla quas, nobis hic asperiores accusamus nesciunt ad,
@@ -567,11 +567,11 @@ const Accordion = () => {
       <div
         className="modal fade"
         id="modal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="modalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog">
+        <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="modalLabel">
@@ -604,6 +604,110 @@ const Accordion = () => {
                 Salvar mudanças
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Off Canvas */}
+      <div className="container m-4">
+        <button
+          className="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
+        >
+          Abrir offcanvas
+        </button>
+        <div
+          className="offcanvas offcanvas-start"
+          tabIndex="-1"
+          id="offcanvas"
+          aria-labelledby="offcanvasLabel"
+        >
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasLabel">
+              Offcanvas
+            </h5>
+            <button
+              type="button"
+              className="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div className="offcanvas-body">
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+              <li>Item 5</li>
+              <li>Item 6</li>
+              <li>Item 7</li>
+              <li>Item 8</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Paginação */}
+      <div className="container">
+        <nav aria-label="Page navigation example">
+          <ul className="pagination">
+            <li className="page-item">
+              <a className="page-link" href="#">
+                Anterior
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                1
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                2
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                3
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                Próximo
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      {/* Progress */}
+      <div className="container">
+        <div className="progress">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            style={{ width: "75%" }}
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            75%
+          </div>
+        </div>
+        <div className="progress mt-5">
+          <div
+            className="progress-bar progress-bar-striped"
+            role="progressbar"
+            style={{ width: "75%" }}
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            75%
           </div>
         </div>
       </div>
