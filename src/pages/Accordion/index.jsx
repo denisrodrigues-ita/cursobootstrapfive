@@ -700,15 +700,178 @@ const Accordion = () => {
         </div>
         <div className="progress mt-5">
           <div
-            className="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped bg-success"
             role="progressbar"
-            style={{ width: "75%" }}
-            aria-valuenow="75"
+            style={{ width: "90%" }}
+            aria-valuenow="90"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            75%
+            90%
           </div>
+        </div>
+      </div>
+
+      {/* Scroll Spy */}
+      <nav id="scrollspy" className="navbar navbar-light bg-light px-5 mb-4">
+        <a className="navbar-brand" href="#">
+          Navbar
+        </a>
+        <ul className="nav">
+          <li className="nav-item">
+            <a className="nav-link" href="#item-1">
+              Item 1
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#item-2">
+              Item 2
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#item-3">
+              Item 3
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#scrollspy"
+        data-bs-offset="0"
+        tabIndex="0"
+      >
+        <div className="container">
+          <h4 id="item-1">Item 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <h4 id="item-2">Item 2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <h4 id="item-3">Item 3</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quae, quod, voluptatibus quibusdam voluptatem quidem
+            voluptas quos quia quas natus. Quisquam, quae. Quisquam, quae.
+            Quisquam,
+          </p>
         </div>
       </div>
     </>
