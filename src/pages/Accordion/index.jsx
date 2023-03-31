@@ -346,6 +346,146 @@ const Accordion = () => {
           </div>
         </div>
       </div>
+
+      {/* Slider */}
+      <div class="container mb-4">
+        <div class="col-8">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                class="active"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="0"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="1"
+                aria-current="false"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide-to="2"
+                aria-current="false"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="carousel-item-1">
+                <img
+                  src="https://via.placeholder.com/300"
+                  class="d-block w-100"
+                  alt="minha imagem"
+                />
+                <div class="carousel-caption">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel-item-2">
+                <img
+                  src="https://via.placeholder.com/300"
+                  class="d-block w-100"
+                  alt="minha imagem"
+                />
+                <div class="carousel-caption">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel-item-3">
+                <img
+                  src="https://via.placeholder.com/300"
+                  class="d-block w-100"
+                  alt="minha imagem"
+                />
+                <div class="carousel-caption">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* close button */}
+      <div class="container">
+        <p>
+          Clique para fechar{" "}
+          <button
+            className="btn-close"
+            type="button"
+            aria-label="Close"
+          ></button>
+        </p>
+        <a href="#" class="btn btn-primary">
+          Fechar
+          <button
+            className="btn-close"
+            type="button"
+            aria-label="Close"
+          ></button>
+        </a>
+      </div>
+
+      {/* Collapse */}
+      <div class="container">
+        <button
+          className="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse"
+          aria-expanded="false"
+          aria-controls="collapse"
+        >
+          Clique para abrir/fechar
+        </button>
+        <div class="collapse" id="collapse">
+          <div className="col-12 mt-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            totam itaque nulla quas, nobis hic asperiores accusamus nesciunt ad,
+            assumenda beatae? Neque sed ducimus et doloremque autem quidem? Rem,
+            harum?
+          </div>
+        </div>
+      </div>
     </>
   );
 };
