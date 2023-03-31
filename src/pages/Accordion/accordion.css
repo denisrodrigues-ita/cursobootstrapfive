@@ -1,4 +1,6 @@
-
+body {
+  margin-bottom: 500px;
+}
 .acc.card {
   width: 200px;
 }

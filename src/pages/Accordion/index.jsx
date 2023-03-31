@@ -466,7 +466,7 @@ const Accordion = () => {
       </div>
 
       {/* Collapse */}
-      <div class="container">
+      <div class="container mt-5">
         <button
           className="btn btn-primary"
           type="button"
@@ -483,6 +483,127 @@ const Accordion = () => {
             totam itaque nulla quas, nobis hic asperiores accusamus nesciunt ad,
             assumenda beatae? Neque sed ducimus et doloremque autem quidem? Rem,
             harum?
+          </div>
+        </div>
+      </div>
+
+      {/* Dropdown */}
+      <div className="container mt-5">
+        <div className="dropdown mb-4">
+          <a
+            href="#"
+            className="btn btn-secondary dropdown-toggle"
+            role="button"
+            id="dropdown"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="dropdown">
+            <li>
+              <a className="dropdown-item" href="#">
+                Action
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Another action
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Something else here
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="container mt-5">
+        <div className="dropdown mb-4 dropend">
+          <a
+            href="#"
+            className="btn btn-secondary dropdown-toggle"
+            role="button"
+            id="dropdown-direita"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="dropdown-direita">
+            <li>
+              <a className="dropdown-item" href="#">
+                Action
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Another action
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Something else here
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Modal */}
+      <div className="container mb-4">
+        <button
+          type="button"
+          className="btn btn-info"
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
+        >
+          Abrir modal
+        </button>
+      </div>
+
+      <div
+        className="modal fade"
+        id="modal"
+        tabindex="-1"
+        aria-labelledby="modalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="modalLabel">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                repellat eaque, hic, veniam rerum dolores, nostrum corporis
+                officia cumque ab adipisci suscipit fugiat. Voluptatem non
+                ratione ex libero dicta eligendi.
+              </p>
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fechar
+              </button>
+              <button type="button" className="btn btn-primary">
+                Salvar mudanças
+              </button>
+            </div>
           </div>
         </div>
       </div>
