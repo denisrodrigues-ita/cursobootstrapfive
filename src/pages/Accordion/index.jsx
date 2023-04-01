@@ -1,6 +1,10 @@
 import React from "react";
 import "./accordion.css";
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
 const Accordion = () => {
   const [count, setCount] = React.useState(0);
 
@@ -874,6 +878,46 @@ const Accordion = () => {
           </p>
         </div>
       </div>
+
+      {/* Toast */}
+      <div className="position-fixed bottom-0 end-0 p-3" style={{ zIndex: 1 }}>
+        <div
+          id="liveToast"
+          className="toast show"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div className="toast-header">
+            <strong className="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button
+              className="btn-close"
+              type="button"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div className="toast-body">
+            Hello, world! This is a toast message.
+          </div>
+        </div>
+      </div>
+
+      {/* Tooltip */}
+      <div className="container">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Tooltip on top"
+        >
+          Tooltip on top
+        </button>
+      </div>
+
+      
     </>
   );
 };
